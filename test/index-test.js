@@ -1,5 +1,7 @@
 /*global concatenatedString, describe, interpolatedString, it, myString */
 var greeting = 'Hello, everybody!'
+var greetSpecialGuest = 'Hello, Neil deGrasse Tyson!'
+var conversation = "Lets talk about"
 it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!")
 })
